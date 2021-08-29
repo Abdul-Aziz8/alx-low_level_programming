@@ -1,10 +1,4 @@
 #!/bin/bash
-# include <stdio.h>
-# include <string.h>
-int main()
-{
-  char string[40]
-    strcpy(str, "Programming is like building a multilingual puzzle,\n");
-  puts(string);
-  return 0;
-}
+#include<stdio.h> int main() { char str[] ="Programming is like building a multilingual puzzle,\n" ;  puts(str) return 0;  }
+
+
