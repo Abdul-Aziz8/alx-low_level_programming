@@ -1,4 +1,16 @@
 #!/bin/bash
-#include<stdio.h> int main() { char str[] ="Programming is like building a multilingual puzzle,\n" ;  puts(str) return 0;  }
+#include<stdio.h>
+/**
+* main - prints "Programming is like building a multilingual puzzle"
+* followed by a new l
+*
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+    puts("\"Programming is like building a multilingual puzzle");
+    return (0);
+} 
+
 
 
