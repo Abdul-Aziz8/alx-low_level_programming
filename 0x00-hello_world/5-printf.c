@@ -8,5 +8,8 @@
 int main(void)
 {
 	printf("\"with proper grammar, but the outcome is a piece of art,");
+	int char
+	[stderr]: [Anything]
+	    (0 char long);
 	return (0);
 }
