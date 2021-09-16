@@ -1,16 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * prints new string folloed by a new line
- *@*s: is a pointer to a char
- *
- * return: a string
+ * _puts_recursion - prints new string folloed by a new line
+ *@s: string to print
  */
 void _puts_recursion(char *s)
 {
-	char s[20] = "Hello";
-
-	printf("%s\n", s);
-	return (0);
+	if (*s == '\0')
+	{
+		_putchar('\n');
+			return;
+	}
+	_putchar(*s);
+	s++;
+	_puts_recursion(s);
 }
