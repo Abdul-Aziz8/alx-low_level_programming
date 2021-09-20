@@ -10,16 +10,10 @@
  */
 int main(int argc, char *argv[])
 {
-	int counter;
-	printf("%s", argv[0]);
-	if (argc == 1)
-		printf("\n");
-			if (argc > 2)
-			{
-				printf("\nNumber of arguments passed: %d", argc);
-				printf("\n");
-				for (counter = 0; counter < argc; counter++)
-					printf("\n argv[%d]:  %s", counter, argv[counter]);
-			}
+	int i;
+	for (i = 0; i < argc; i++)
+	{
+		printf("argv[%d]: %s\n", i, argv[i]);
+	}
 	return (0);
 }
