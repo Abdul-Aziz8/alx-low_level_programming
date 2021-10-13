@@ -7,23 +7,11 @@
  */
 int main(void)
 {
-	int n;
-	char c;
-	long long int li;
-	float f;
-
-	for (n = sizeof (int))
-	printf("%d\n", n);
-
-	for (c = sizeof (char))
-		printf("%d\n", c);
-
-	for (li = sizeof (long long int))
-		printf("%lld\n", li);
-
-	for (f = sizeof (float))
-		printf("%f\n", f);
+	printf("size of a char: %lu bytes\n", sizeof(char));
+	printf("size of an int: %lu bytes\n", sizeof(int));
+	printf("size of a long int: %lu bytes\n", sizeof(long int));
+	printf("size of a long long int: %lu bytes\n", sizeof(long long int));
+	printf("size of a float: %lu bytes\n", sizeof(float));
 	return (0);
 }
-
 
