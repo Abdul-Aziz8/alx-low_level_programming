@@ -7,9 +7,8 @@
  */
 int main(void)
 {
-	printf("\"with proper grammar, but the outcome is a piece of art,");
-	int char
-	[stderr]: [Anything]
-	    (0 char long);
+	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("\n");
 	return (0);
 }
+
