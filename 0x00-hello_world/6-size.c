@@ -2,7 +2,6 @@
 
 /** 
  * main - prints the size of various types on the computer.
- *@sizeof: size of the data types
  *
  * Return. Always 0.
  */
@@ -15,4 +14,3 @@ int main(void)
 	printf("size of a float: %lu byte(s)\n", sizeof(float));
 	return (0);
 }
-
